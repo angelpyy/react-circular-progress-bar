@@ -28,7 +28,7 @@ const Nested: React.FC<INested> = ({
   const nestedRef = useRef<HTMLDivElement>(null);
   const { isVisible } = useIntersection(nestedRef);
 
-  circles.sort((a: any, b: any) => b.value - a.value);
+  // circles.sort((a: any, b: any) => b.value - a.value);
   const c1p = 50;
   const c2p = 40;
   const c3p = 30;
